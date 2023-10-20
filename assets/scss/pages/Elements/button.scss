@@ -1,0 +1,46 @@
+.btn{
+    width: 300px;
+    height: 65px;
+    padding: 25px 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $secondary-color;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 72.361px;
+    font-size: 25px;
+    font-weight: 600;
+}
+/**********************************media queries**********************************/
+@media (max-width:1600px) {
+    .btn{
+        width: 220px;
+        height: 55px;
+        font-size: 20px;
+    }
+}
+@media (max-width:991px) {
+    .btn{
+        width: 180px;
+        height: 48px;
+        font-size: 18px;
+    }
+}
+@media (max-width:768px) {
+    .btn{
+        width: 95px;
+        padding: 15px 14px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+@media (max-width:448px) {
+    .btn{
+        width: 80px;
+        padding: 15px 14px;
+        height: 30px;
+        font-size: 12px;
+    }
+}

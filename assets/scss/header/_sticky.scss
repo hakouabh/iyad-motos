@@ -1,0 +1,10 @@
+.header{
+    &.sticky{  
+        background: linear-gradient(135deg, rgba(223, 27, 1, 0.50) 0%, rgba(3, 1, 1, 0.8) 100%);
+        backdrop-filter: blur(25px);
+        box-shadow: var(--box-shadow);
+        padding:20 100px;
+        height: 120px;
+        z-index:999999999;
+      }
+}

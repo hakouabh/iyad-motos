@@ -1,0 +1,32 @@
+
+.Scroll{
+    position: fixed;
+      right: 15px;
+      bottom: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+           border:1px solid #fff;
+      .btnScroll{
+           width: 48px;
+           height: 48px;
+           border-radius: 50%;
+           background-color: transparent;
+            outline: none;
+            border: none;
+           cursor: pointer;
+           color: $secondary-color;
+           z-index: 1111;
+           background-size: 300% 100%;
+           -o-transition: all .4s ease-in-out;
+           -webkit-transition: all .4s ease-in-out;
+           transition: all .4s ease-in-out;
+          
+           i{
+              font-size: 20px;    
+            }  
+      }
+  }

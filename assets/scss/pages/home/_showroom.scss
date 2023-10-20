@@ -1,0 +1,209 @@
+.showroom{
+    display: flex;
+    flex-direction: column;
+    padding:0px 100px;
+    gap: 7rem;
+    align-items: center;
+    .content{
+        display: flex;
+        align-items: center;
+        img{
+            max-width: 900px;
+            width: 100%;
+            height: auto;
+         }
+         .card{
+            background-color: $primary-color;
+            max-width: 600px;
+            width: 100%;
+            height: 500px;
+            border-radius: 135px;
+            margin-left: -70px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+            padding: 0 50px;
+            h1{
+                color: $secondary-color-dark;
+                text-align: center;
+                font-size: 35px;
+                font-family: Stretch Pro;
+                width: 100%;
+                line-height: 1;
+             }
+             p{
+                color: $secondary-color;
+                font-size: 18px;
+                font-weight: 600;
+             }
+             .btn{
+                background-color: $primary-color-dark;
+                border-radius: 31px;
+                width: 200px;
+                height: 60px;
+                font-size: 19px;
+                            font-family: Stretch Pro;
+
+             }
+         }
+     }
+ }
+
+ @media (max-width:1600px) {
+    .showroom{
+        padding:0px 70px;
+        .content{
+            img{
+                max-width: 700px;
+                width: 100%;
+                height: auto;
+             }
+             .card{
+                max-width: 400px;
+                width: 100%;
+                height: 400px;
+                border-radius: 118px;
+                padding: 0 40px;
+                h1{
+                    font-size: 30px;
+                 }
+                 p{
+                    font-size: 16px;
+                 }
+                 .btn{
+                    width: 200px;
+                    height: 60px;
+                    font-size: 18px;
+    
+                 }
+             }
+         }
+     }
+    
+ }
+ @media (max-width:1200px) {
+    .showroom{
+        padding:0px 50px;
+        .content{
+            img{
+                max-width: 600px;
+                width: 100%;
+                height: auto;
+             }
+             .card{
+                max-width: 400px;
+                width: 100%;
+                height: 350px;
+                border-radius: 110px;
+                padding: 0 30px;
+                h1{
+                    font-size: 27px;
+                 }
+                 p{
+                    font-size: 15px;
+                 }
+                 .btn{
+                    width: 190px;
+                    height: 50px;
+                    font-size: 16px;
+    
+                 }
+             }
+         }
+     }
+    
+ }
+ @media (max-width:991px) {
+    .showroom{
+        padding:0px 40px;
+        .content{
+            img{
+                max-width: 450px;
+                width: 100%;
+                height: auto;
+             }
+             .card{
+                max-width: 350px;
+                width: 100%;
+                height: 250px;
+                border-radius: 70px;
+                padding: 20px 30px;
+                gap: 1rem;
+                h1{
+                    font-size: 23px;
+                 }
+                 p{
+                    font-size: 13px;
+                 }
+                 .btn{
+                    width: 180px;
+                    height: 40px;
+                    font-size: 13px;
+    
+                 }
+             }
+         }
+     }
+    
+ }
+ @media (max-width:768px) {
+    .showroom{
+        
+        .content{
+            position: relative;
+            img{
+                max-width: 450px;
+                width: 100%;
+                height: auto;
+             }
+             .card{
+                max-width: 350px;
+                width: 100%;
+                height: 250px;
+                border-radius: 70px;
+                padding: 20px 30px;
+                gap: 1rem;
+                margin-left: 0px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                h1{
+                    font-size: 23px;
+                 }
+                 p{
+                    font-size: 13px;
+                 }
+                 .btn{
+                    width: 180px;
+                    height: 40px;
+                    font-size: 13px;
+    
+                 }
+             }
+         }
+     }
+    
+ }
+ @media (max-width:448px) {
+    .showroom{
+        padding:0px 20px;
+        .content{
+             .card{
+                h1{
+                    font-size: 20px;
+                 }
+                 p{
+                    font-size: 10px;
+                 }
+                 .btn{
+                    width: 120px;
+                    height: 40px;
+                    font-size: 10px;
+    
+                 }
+             }
+         }
+     }
+    
+ }

@@ -1,0 +1,41 @@
+.title2{
+    font-size: 100px;
+    font-weight: 700;
+    color: $secondary-color;
+    font-family: Stretch Pro;
+    position: relative;
+    width: max-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:after{
+        content: "";
+        position: absolute;
+        background-color: $primary-color;
+        height: 5px;
+        width: 150px;
+        bottom: -5px;
+        transition: 0.4s;
+    }
+}
+@media (max-width:1600px) {
+    .title2{
+        font-size: 80px;
+    }
+}
+@media (max-width:991px) {
+    .title2{
+        font-size: 60px;
+    }
+}
+@media (max-width:768px) {
+    .title2{
+        font-size: 45px;
+    }
+}
+@media (max-width:448px) {
+    .title2{
+        font-size: 30px;
+    }
+}

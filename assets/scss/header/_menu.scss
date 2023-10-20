@@ -1,0 +1,107 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000000;
+    .menu-btn{
+        display: none;
+    }
+    .logo{
+        width: 175px;
+    height: 140px;
+    object-fit: contain;
+    }
+    .navbar{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 7rem;
+        a{
+            color: $secondary-color ;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+/*********************************media queries*********************************/
+@media (max-width:1600px) {
+    .header{
+        padding:20px 70px;
+        .logo{
+            width: 150px;
+            height: 130px;
+        }
+        .navbar{
+            gap: 5rem;
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media (max-width:991px) {
+    .header{
+        padding:10px 40px;
+        .navbar{
+            gap: 4rem;
+            a{
+                font-size: 13px;
+            }
+        }
+    } 
+}
+@media (max-width:768px) {
+    .header{
+        .menu-btn{
+            display: inline-block;
+            transition: .2s linear;
+            color: $primary-color;
+            font-size: 30px;
+            cursor: pointer;
+            &.fa-times{
+                transform: rotate(180deg);
+            }
+        }
+        .navbar{
+            position: absolute;
+            top: 90%;
+            left: 0;
+            right: 0;
+            background-color: $primary-color-dark;
+            padding:0.2rem;
+            clip-path: polygon(0 0,100% 0,100% 0,0 0);
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 20px 30px;
+            &.active{
+                clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+            }
+            a{
+                font-size: 13px;
+            }
+          }
+    }
+
+}
+@media (max-width:448px) {
+    .header{
+        padding:10px 10px;
+        .logo{
+            width: 120px;
+            height: 80px;
+        }
+    }
+}

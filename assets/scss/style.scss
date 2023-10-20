@@ -1,0 +1,95 @@
+/*-------------------- TABLE OF CONTENTS --------------- */
+
+/*-------------------- 1.    GENERAL STYLES ------------------- */
+/*-------------------- 1.1   CONFIG ------------------- */
+/*-------------------- 2.   HEADER---------- */
+/*-------------------- 2.1   Menu ------------------- */
+/*-------------------- 2.2   Sticky Header ------------------- */
+/*-------------------- 3.    HOME --------------------*/
+/*-------------------- 3.1    home ------------------- */
+/*-------------------- 3.2    about ------------------- */
+/*-------------------- 3.3    soon ------------------- */
+/*-------------------- 3.4    shop ------------------- */
+/*-------------------- 3.5    showroom ------------------- */
+/*-------------------- 3.6    brands ------------------- */
+/*-------------------- 3.7    contact ------------------- */
+/*-------------------- 3.8    map ------------------- */
+/*-------------------- 3.9    footer ------------------- */
+
+/*-------------------- 1.    GENERAL STYLES ------------------- */
+/*-------------------- 1.1   CONFIG ------------------- */
+@import 'config/_variables.scss';
+/*-------------------- 2.   HEADER---------- */
+/*-------------------- 2.1   Menu ------------------- */
+@import 'header/menu';
+/*-------------------- 2.2   Sticky Header ------------------- */
+@import 'header/sticky';
+/*-------------------- 3    PAGES --------------------*/
+/*-------------------- 3.1    HOME --------------------*/
+/*-------------------- 3.1.1    home ------------------- */
+@import 'pages/home/home';
+/*-------------------- 3.1.2    about ------------------- */
+@import 'pages/home/about';
+/*-------------------- 3.1.3    soon ------------------- */
+@import 'pages/home/soon';
+/*-------------------- 3.1.4    shop ------------------- */
+@import 'pages/home/shop';
+/*-------------------- 3.1.5    showroom ------------------- */
+@import 'pages/home/showroom';
+/*-------------------- 3.1.6    brands ------------------- */
+@import 'pages/home/brands';
+/*-------------------- 3.1.7    contact ------------------- */
+@import 'pages/home/contact';
+/*-------------------- 3.1.8    map ------------------- */
+@import 'pages/home/map';
+/*-------------------- 3.1.9    footer ------------------- */
+@import 'pages/home/footer';
+/*-------------------- 3.2    Elements --------------------*/
+/*-------------------- 3.2.1    btn-scroll ------------------- */
+@import 'pages/Elements/btn-scroll';
+/*-------------------- 3.2.2   button ------------------- */
+@import 'pages/Elements/button';
+/*-------------------- 3.2.1    title-1 ------------------- */
+@import 'pages/Elements/title-1';
+/*-------------------- 3.2.2   title-2 ------------------- */
+@import 'pages/Elements/title-2';
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    list-style: none;
+}
+a{
+    cursor: pointer;
+}
+html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+body{
+    background-color: $primary-color-dark;
+}
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $primary-color;
+}
+*::selection{
+    background-color: $primary-color;
+    color: $secondary-color ;
+}

@@ -1,0 +1,124 @@
+.home{
+    background: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 300px 100px;
+        .left{
+            display: flex;
+           flex-direction: column;
+           color: $secondary-color;
+           gap: 1rem;
+           p{
+            font-size: 50px;
+            font-weight: 800;
+            font-family: Stretch Pro;
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+}
+/**************************************media queries******************************/
+@media (max-width:1600px) {
+    .home{
+        .content{
+            padding: 250px 70px;
+            .left{
+                p{
+                    font-size: 35px;
+                }
+            }
+            .right{
+                a{
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media (max-width:991px) {
+    .home{
+        height: 90vh;
+        .content{
+            padding: 250px 40px;
+            .left{
+                p{
+                    font-size: 25px;
+                }
+            }
+            .right{
+                gap: 1rem;
+                a{
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .home{
+        height: 70vh;
+        .content{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;  
+            width: 100%;
+            .left{
+                p{
+                    font-size: 20px;
+                }
+            }
+            .right{
+                padding-top: 20px;
+                gap: 2rem;
+                flex-direction: row;
+                a{
+                    img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:448px) {
+    .home{
+        height: 70vh;
+        .content{
+            padding: 170px 20px;
+            .left{
+                p{
+                    font-size: 15px;
+                }
+            }
+            .right{
+                gap: 1.3rem;
+                a{
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
