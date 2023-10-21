@@ -2,15 +2,19 @@
     background: url("/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
     height: 100vh;
     width: 100%;
+    position: relative;
     .content{
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        padding: 300px 100px;
+        padding: 0 100px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         .left{
             display: flex;
            flex-direction: column;
@@ -33,7 +37,7 @@
 @media (max-width:1600px) {
     .home{
         .content{
-            padding: 250px 70px;
+            padding: 0 70px;
             .left{
                 p{
                     font-size: 35px;
@@ -51,11 +55,32 @@
         
     }
 }
+@media (max-width:1200px) {
+    .home{
+        .content{
+            padding: 0 50px;
+            .left{
+                p{
+                    font-size: 30px;
+                }
+            }
+            .right{
+                a{
+                    img{
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
 @media (max-width:991px) {
     .home{
         height: 90vh;
         .content{
-            padding: 250px 40px;
+            padding: 0 40px;
             .left{
                 p{
                     font-size: 25px;
@@ -104,10 +129,10 @@
     .home{
         height: 70vh;
         .content{
-            padding: 170px 20px;
+            padding: 0 20px;
             .left{
                 p{
-                    font-size: 15px;
+                    font-size: 12px;
                 }
             }
             .right{

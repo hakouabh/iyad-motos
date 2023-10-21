@@ -4,7 +4,8 @@
     <About/>
     <Soon/>
     <Shop/>
-    <Showroom/>
+    <Entretien/>
+    <Showroom/> 
     <Brands/>
     <Contact/>
     <Map/>

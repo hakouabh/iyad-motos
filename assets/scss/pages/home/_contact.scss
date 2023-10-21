@@ -26,17 +26,38 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            gap: 1.5rem;
+            gap: 2rem;
+            width: 100%;
             h3{
                 font-size: 45px;
                 font-weight: 400;
                 color: $secondary-color;
                 font-family: Stretch Pro;
+                text-align: center;
 
              }
              .row_1{
                 display: flex;
-                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                .info{
+                    font-weight: 400;
+                    color: $secondary-color;
+                    font-size: 25px;
+                    text-align: center;
+                    &:hover{
+                        color: $primary-color-dark;
+                        font-weight: 600;
+                    }
+                    &.adress{ 
+                        width: 20%;
+                    }
+                    }
+                 }
+                 
+             }
+             .row_2{
+                display: flex;
                 justify-content: center;
                 column-gap: 8rem;
                 width: 100%;
@@ -44,6 +65,9 @@
                     font-size: 35px;
                     font-weight: 400;
                     color: $secondary-color;
+                    &:hover{
+                        font-weight: 600;
+                    }
                  }
                  .social-link{
                     display: flex;
@@ -61,7 +85,7 @@
              }
          }
      }
- }
+ 
  
 @media (max-width:1600px) {
     .contact{
@@ -75,6 +99,12 @@
                     font-size: 35px;
                  }
                  .row_1{
+                    .info{
+                        font-size: 20px;
+                        
+                        }
+                     }
+                 .row_2{
                     a{
                         font-size: 25px;
                      }
@@ -84,6 +114,31 @@
                             height: 28px;
                         }
                      }
+                 }
+            }
+         }
+    }
+}
+@media (max-width:1200px) {
+    .contact{
+        .title{
+            padding:0 50px;
+         }
+         .contact-content{
+            .row{
+                h3{
+                    font-size: 33px;
+                 }
+                 .row_1{
+                    .info{
+                        font-size: 18px;
+                        }
+                     }
+                 .row_2{
+                    a{
+                        font-size: 23px;
+                     }
+                     
                  }
             }
          }
@@ -99,7 +154,8 @@
                 h3{
                     font-size: 30px;
                  }
-                 .row_1{
+                 
+                 .row_2{
                     a{
                         font-size: 20px;
                      }
@@ -125,6 +181,18 @@
                     font-size: 25px;
                  }
                  .row_1{
+                    flex-direction: column;
+
+                    .info{
+                        font-size: 15px;
+                        &.adress{ 
+                            width: 100%;
+                        }
+                        }
+                     }
+                 .row_2{
+                    flex-direction: column;
+
                     gap: 3rem;
                     a{
                         font-size: 15px;
@@ -151,9 +219,15 @@
             height: 400px;
             .row{
                 h3{
-                    font-size: 22px;
+                    font-size: 20px;
                  }
                  .row_1{
+                    gap: 1rem;
+                    .info{
+                        font-size: 13px;
+                        }
+                     }
+                 .row_2{
                     gap: 1rem;
                     flex-direction: column;
                     a{

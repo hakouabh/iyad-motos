@@ -45,9 +45,21 @@
         }
     }
 }
+@media (max-width:1200px) {
+    .shop{
+        padding:100px 50px;
+        .image-container{
+            .photo{
+                p{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
 @media (max-width:991px) {
     .shop{
-        padding:100px 40px;
+        padding:80px 40px;
         .image-container{
             .photo{
                 p{
@@ -70,12 +82,12 @@
 }
 @media (max-width:448px) {
     .shop{
-   
+        padding:50px 20px;
         gap: 4rem;
         .image-container{
             .photo{
                 p{
-                    font-size: 20px;
+                    font-size: 15px;
                 
                 }
             }

@@ -48,6 +48,7 @@ export default {
       adress_local : process.env.ADRESS_LOCAL,
       link_facebook : process.env.LINK_FACEBOOK,
       link_insta : process.env.LINK_INSTA,
+      adresse_mail : process.env.ADRESSE_MAIL,
  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

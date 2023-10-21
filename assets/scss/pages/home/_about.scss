@@ -23,6 +23,14 @@
         }
     } 
 }
+@media (max-width:1200px) {
+    .about{
+        padding:100px 50px;
+        p{
+            font-size: 28px;
+        }
+    } 
+}
 @media (max-width:991px) {
     .about{
         padding:100px 40px;
