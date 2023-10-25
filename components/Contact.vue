@@ -1,7 +1,7 @@
 <template>
   <div class="contact" id="contact">
     <h2 class="title2">
-        contactez-nous
+        Contactez-nous
     </h2>
     <div class="contact-content">
             <div class="row">
