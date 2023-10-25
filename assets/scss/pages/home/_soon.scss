@@ -24,11 +24,12 @@
             height: auto;
             &:first-child{
                 position: absolute;
-                top: -30%;
+                top: -40%;
                 left: 0%;
             }
             &:last-child{
                 position: absolute;
+                margin-top: 20px;
                 top: 100%;
                 left: 90%;
             }
