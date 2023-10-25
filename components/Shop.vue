@@ -4,19 +4,19 @@
         <div class="image-container">
             <div class="photo">
                 <img src="/images/shop1.png" alt="">
-                <p>Moto X</p>
+                <p>Moto</p>
             </div>
             <div class="photo">
                 <img src="/images/shop3.png" alt="">
-                <p>Moto X</p>
+                <p>Accessoire</p>
             </div>
             <div class="photo">
                 <img src="/images/shop2.png" alt="">
-                <p>Wheel X</p>
+                <p>Roue</p>
             </div>
             <div class="photo">
                 <img src="/images/shop4.png" alt="">
-                <p>Helmet X</p>
+                <p>Casque</p>
             </div>
         </div>
         
