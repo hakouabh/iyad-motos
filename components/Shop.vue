@@ -8,7 +8,7 @@
             </div>
             <div class="photo">
                 <img src="/images/shop3.png" alt="">
-                <p>Accessoire</p>
+                <p>Pièces</p>
             </div>
             <div class="photo">
                 <img src="/images/shop2.png" alt="">
