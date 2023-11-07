@@ -17,6 +17,11 @@
                 text-align: left;
                 line-height: 1;
             }
+            p{
+                span{
+                    color: $primary-color;
+                }
+            }
            
         }
         img{

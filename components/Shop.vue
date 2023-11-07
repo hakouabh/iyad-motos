@@ -4,7 +4,7 @@
         <div class="image-container">
             <div class="photo">
                 <img src="/images/shop1.png" alt="">
-                <p>Moto</p>
+                <p>Motos</p>
             </div>
             <div class="photo">
                 <img src="/images/shop3.png" alt="">
@@ -12,11 +12,11 @@
             </div>
             <div class="photo">
                 <img src="/images/shop2.png" alt="">
-                <p>Roue</p>
+                <p>Accessoires</p>
             </div>
             <div class="photo">
                 <img src="/images/shop4.png" alt="">
-                <p>Casque</p>
+                <p>Casque & Equipement</p>
             </div>
         </div>
         

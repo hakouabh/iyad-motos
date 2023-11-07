@@ -17,17 +17,18 @@
             }
             p{
                 color: $secondary-color;
-                font-size: 85px;
+                font-size: 65px;
                 font-weight: 400;
-               position: absolute;
+                position: absolute;
                 top: 70%;
                 left: 3%;
                 font-family: Stretch Pro;
-
             }
-            &:first-child p,
-            &:last-child p{
+            &:first-child p{
                 top: 57%;
+            }
+            &:last-child p{
+                top: 40%;
             }
         }
     }
@@ -39,7 +40,7 @@
         .image-container{
             .photo{
                 p{
-                    font-size: 60px;
+                    font-size: 50px;
                 }
             }
         }
@@ -51,7 +52,7 @@
         .image-container{
             .photo{
                 p{
-                    font-size: 50px;
+                    font-size: 40px;
                 }
             }
         }
@@ -63,7 +64,7 @@
         .image-container{
             .photo{
                 p{
-                    font-size: 45px;
+                    font-size: 30px;
                 }
             }
         }
@@ -74,7 +75,22 @@
         .image-container{
             .photo{
                 p{
-                    font-size: 30px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:594px) {
+    .shop{
+        .image-container{
+            .photo{
+                p{
+                    font-size: 20px;
+                    
+                }
+                &:last-child p{
+                    top: 57%;
                 }
             }
         }
