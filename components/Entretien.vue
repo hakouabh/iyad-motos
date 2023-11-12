@@ -2,7 +2,7 @@
   <div class="entretien">
     <div class="row">
         <div class="text">
-            <h2 class="title2 no-border titre">Votre expert en entreetien
+            <h2 class="title2 no-border titre">Votre expert en entretien
             de moto et de scooter</h2>
             <p class="paragraph">
                 IYADMOTOS vous propose ses services pour entretenir et réparer votre deux roues, <span>avec RENDEZ-VOUS</span>.

@@ -23,7 +23,7 @@
         </div>
         <div class="row_2">
             <p>copyright &copy; 2023 | Tous les droits sont réservés.</p>
-            <p>BY <a href="https://www.developily.com/" target="_blank">DEVELOPILY</a></p>
+            <p>BY <a href="https://iyadmotos.dz/" target="_blank">IYADMOTOS</a></p>
         </div>
     </div>
 </template>
