@@ -9,7 +9,7 @@
             </p>
         
         </div>
-        <img src="/images/phone.png" alt="">
+        <img src="/images/Phone.png" alt="">
     </div>
     <p class="paragraph">
         nos experts effectuent les contrôles et les réparations nécessaires pour assurer votre sécurité et le bon fonctionnement de vos 2 roues.
